@@ -7,14 +7,14 @@ public class DollarTest {
 
     @Test
     public void testMultiplication() {
-        Dollar five = new Dollar(5);
-        Assertions.assertEquals(new Dollar(10), five.times(2));
-        Assertions.assertEquals(new Dollar(15), five.times(3));
+        Money five = Money.dollar(5);
+        Assertions.assertEquals(Money.dollar(10), five.times(2));
+        Assertions.assertEquals(Money.dollar(15), five.times(3));
     }
 
     @Test
     public void testEquality() {
-        Assertions.assertTrue(new Dollar(5).equals(new Dollar(5)));
-        Assertions.assertFalse(new Dollar(5).equals(new Dollar(6)));
+        Assertions.assertTrue(Money.dollar(5).equals(Money.dollar(5)));
+        Assertions.assertFalse(Money.dollar(5).equals(Money.dollar(6)));
     }
 }

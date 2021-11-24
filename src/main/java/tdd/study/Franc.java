@@ -1,20 +1,9 @@
 package tdd.study;
 
-public class Franc {
+public class Franc extends Money{
 
-    private int amount;
-
-    public Franc(int amount) {
-        this.amount = amount;
+    public Franc(int amount, String currency) {
+        super(amount, currency);
     }
 
-    public Franc times(int multiplier) {
-        return new Franc(amount * multiplier);
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        Franc franc = (Franc) obj;
-        return amount == franc.amount;
-    }
 }

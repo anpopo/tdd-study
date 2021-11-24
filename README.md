@@ -11,5 +11,8 @@ TDD - 켄트백
 - [] Equal object
 - [x] 5CHF * 2 = 10CHF
 - [] Dollar / Franc 중복
-- [] 공용 equals
-- [] 공용 times
+- [x] 공용 equals
+- [x] 공용 times
+- [x] Franc 와 Dollar 비교하기
+- [x] 통화
+- [] testFrancMultiplication 제거
