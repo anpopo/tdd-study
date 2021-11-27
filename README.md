@@ -1,6 +1,13 @@
 TDD - 켄트백
 ***
-- [] $5 + 10CHF = $10(환율이 2:1 일 경우)
+- [x] $5 + 10CHF = $10(환율이 2:1 일 경우)
+- [x] $5 + $5 = 10$
+- [x] $5 + $5 에서 Money 반환하기
+- [x] Bank.reduce(Money)
+- [x] Money 에 대한 통화 변환을 수행하는 reduce
+- [x] Reduce(Bank, String)
+- [x] Sum.plus()
+- [x] Expression.times()
 - [x] $5 * 2 = $10
 - [x] amount 를 private 로 만들기
 - [x] Dollar 부작용?
@@ -10,9 +17,9 @@ TDD - 켄트백
 - [] Equal null
 - [] Equal object
 - [x] 5CHF * 2 = 10CHF
-- [] Dollar / Franc 중복
+- [x] Dollar / Franc 중복
 - [x] 공용 equals
 - [x] 공용 times
 - [x] Franc 와 Dollar 비교하기
 - [x] 통화
-- [] testFrancMultiplication 제거
+- [x] testFrancMultiplication 제거
